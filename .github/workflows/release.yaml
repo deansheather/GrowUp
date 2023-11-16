@@ -74,12 +74,15 @@ jobs:
           $content = $json | ConvertTo-Json
           Set-Content -Path $path -Value $content
 
+          echo "GrowUp.json:"
+          Get-Content -Raw $path
+
       - name: Archive
         run: |
           $configuration = '${{ steps.version.outputs.configuration }}'
           Compress-Archive -Path "${build_dir}/*" -DestinationPath GrowUp.zip
 
-      - name: Upload a Build Artifact
+      - name: Upload Build Artifact
         uses: actions/upload-artifact@v2.2.1
         with:
           path: |
@@ -130,7 +133,7 @@ jobs:
           $path = './repo.json'
           $json = Get-Content -Raw $path | ConvertFrom-Json
           $json[0].TestingAssemblyVersion = $ver
-          $json[0].DownloadLinkTesting = $json.DownloadLinkTesting -replace '[^/]+/.zip',"$ref/Glamourer.zip"
+          $json[0].DownloadLinkTesting = $json.DownloadLinkTesting -replace '[^/]+/.zip',"$ref/GrowUp.zip"
           $content = $json | ConvertTo-Json -AsArray
           Set-Content -Path $path -Value $content
 
