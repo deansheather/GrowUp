@@ -40,11 +40,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <!--
-    <Content Include="..\Data\goat.png">
+    <None Update="GrowUp.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Visible>false</Visible>
-    </Content>
-    -->
+    </None>
   </ItemGroup>
 </Project>

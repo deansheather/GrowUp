@@ -61,6 +61,9 @@ jobs:
           $configuration = '${{ steps.version.outputs.configuration }}'
           Invoke-Expression 'dotnet build --no-restore --configuration $configuration --nologo -p:Version=$ver -p:FileVersion=$ver -p:AssemblyVersion=$ver'
 
+      - name: Build Tree
+        run: tree /F '${{ steps.version.outputs.build_dir }}'
+
       - name: Write Version Into Dalamud JSON
         run: |
           $ver = '${{ steps.version.outputs.version }}'
