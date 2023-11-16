@@ -24,11 +24,11 @@ jobs:
             $ver = $ver.Substring(8)
             echo "testing=true" >> "$env:GITHUB_OUTPUT"
             echo "configuration=Debug" >> "$env:GITHUB_OUTPUT"
-            echo "build_dir=./GrowUp/bin/x64/Debug" >> "$env:GITHUB_OUTPUT"
+            echo "build_dir=./GrowUp/bin/Debug" >> "$env:GITHUB_OUTPUT"
           } else {
             echo "testing=false" >> "$env:GITHUB_OUTPUT"
             echo "configuration=Release" >> "$env:GITHUB_OUTPUT"
-            echo "build_dir=./GrowUp/bin/x64/Release" >> "$env:GITHUB_OUTPUT"
+            echo "build_dir=./GrowUp/bin/Release" >> "$env:GITHUB_OUTPUT"
           }
 
       - name: Print Version
