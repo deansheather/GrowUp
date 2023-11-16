@@ -11,7 +11,7 @@
       "Character"
     ],
     "InternalName": "GrowUp",
-    "AssemblyVersion": null,
+    "AssemblyVersion": "0.0.0.1",
     "TestingAssemblyVersion": "0.0.0.1",
     "RepoUrl": "https://github.com/deansheather/GrowUp",
     "ApplicableVersion": "any",
@@ -20,9 +20,9 @@
     "IsTestingExclusive": "False",
     "DownloadCount": 1,
     "LastUpdate": 1700142233,
-    "DownloadLinkInstall": "",
-    "DownloadLinkUpdate": "",
-    "DownloadLinkTesting": "",
+    "DownloadLinkInstall": "https://github.com/deansheather/GrowUp/releases/download/0.0.0.1/GrowUp.zip",
+    "DownloadLinkUpdate": "https://github.com/deansheather/GrowUp/releases/download/0.0.0.1/GrowUp.zip",
+    "DownloadLinkTesting": "https://github.com/deansheather/GrowUp/releases/download/0.0.0.1/GrowUp.zip",
     "IconUrl": "https://raw.githubusercontent.com/deansheather/GrowUp/main/images/icon.png"
   }
 ]
