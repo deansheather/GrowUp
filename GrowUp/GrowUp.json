@@ -1,0 +1,11 @@
+{
+  "Author": "deansheather",
+  "Name": "Grow Up",
+  "Punchline": "TODO",
+  "Description": "TODO",
+  "InternalName": "growUp",
+  "ApplicableVersion": "any",
+  "Tags": ["Appearance", "Customization", "Design", "Character"],
+  "RepoUrl": "https://github.com/deansheather/GrowUp",
+  "DalamudAPILevel": 9
+}

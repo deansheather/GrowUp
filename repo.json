@@ -1,0 +1,23 @@
+[
+  {
+    "Author": "deansheather",
+    "Name": "Grow Up",
+    "Punchline": "TODO",
+    "Description": "TODO",
+    "Tags": ["Appearance", "Customization", "Design", "Character"],
+    "InternalName": "GrowUp",
+    "AssemblyVersion": "0.0.0.1",
+    "TestingAssemblyVersion": "0.0.0.1",
+    "RepoUrl": "https://github.com/deansheather/GrowUp",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 9,
+    "IsHide": "False",
+    "IsTestingExclusive": "False",
+    "DownloadCount": 1,
+    "LastUpdate": 1618608322,
+    "DownloadLinkInstall": "",
+    "DownloadLinkUpdate": "",
+    "DownloadLinkTesting": "",
+    "IconUrl": "https://raw.githubusercontent.com/deansheather/GrowUp/main/images/icon.png"
+  }
+]
