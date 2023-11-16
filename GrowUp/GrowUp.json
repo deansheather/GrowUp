@@ -3,9 +3,12 @@
   "Name": "Grow Up",
   "Punchline": "TODO",
   "Description": "TODO",
-  "InternalName": "growUp",
-  "ApplicableVersion": "any",
   "Tags": ["Appearance", "Customization", "Design", "Character"],
+  "InternalName": "growUp",
+  "AssemblyVersion": "0.0.0.1",
   "RepoUrl": "https://github.com/deansheather/GrowUp",
-  "DalamudAPILevel": 9
+  "ApplicableVersion": "any",
+  "DalamudAPILevel": 9,
+  "ImageUrls": null,
+  "IconUrl": "https://raw.githubusercontent.com/deansheather/GrowUp/main/images/icon.png"
 }
