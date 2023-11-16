@@ -54,6 +54,7 @@ jobs:
         run: |
           Invoke-WebRequest -Uri https://goatcorp.github.io/dalamud-distrib/stg/latest.zip -OutFile latest.zip
           Expand-Archive -Force latest.zip "$env:AppData\XIVLauncher\addon\Hooks\dev"
+          rm latest.zip
 
       - name: Build
         run: |
@@ -79,7 +80,7 @@ jobs:
 
       - name: Archive
         run: |
-          $configuration = '${{ steps.version.outputs.configuration }}'
+          $build_dir = '${{ steps.version.outputs.build_dir }}'
           Compress-Archive -Path "${build_dir}/*" -DestinationPath GrowUp.zip
 
       - name: Upload Build Artifact
